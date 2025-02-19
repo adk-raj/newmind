@@ -1,0 +1,30 @@
+.right-menu {
+  position: fixed;
+  right: 0;
+  top: 8vh;
+  width: 8%;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: -2px 0px 4px rgba(0, 0, 0, 0.1);
+}
+
+.menu-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px 0;
+  font-size: 14px;
+  color: #666;
+  cursor: pointer;
+}
+
+.menu-item:hover {
+  color: #1890ff;
+}
+
+.menuicons {
+  color: black;
+}

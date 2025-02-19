@@ -1,0 +1,23 @@
+.main-layout {
+  display: flex;
+  height: 100vh;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  width: 85%;
+  transition: width 0.3s ease-in-out;
+}
+
+.content-container {
+  height: calc(100vh - 60px);
+}
+
+.stages-section {
+  transition: width 0.3s ease-in-out;
+}
+
+.stages-section.open {
+  width: 89%;
+}

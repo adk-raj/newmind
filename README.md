@@ -68,3 +68,31 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+## Key desciption about Project
+A **React.js** project designed as a **Transaction Management Dashboard**, using **Ant Design** for UI components and **React Router** for navigation.  
+This project includes a **sidebar, transaction content panel, transaction content stages, right-side menu, and a dynamic header**, built according to a Figma design reference.
+
+---
+
+## **🚀 Features**
+- **Fixed Sidebar (10% width, static)** with icons and labels placed **below** them.
+- **Transaction Content Panel** (Expands to 20% when open, collapses to 0% when closed).
+- **Transaction Content Stages** (Expands to 70% when open, 90% when Transaction Content is closed).
+- **Dynamic Header** (Expands/collapses with Transaction Content, aligns icons accordingly).
+- **Right-Side Menu** with action icons like Transactions, Tasks, Phases, Sign Tracking, etc.
+- **Collapsible Folder Structure** in Transaction Contents (Stages open with Sub-Stages, others collapse automatically).
+
+
+## **🛠 Tech Stack**
+- **React.js** (Frontend)
+- **React Router DOM** (Navigation)
+- **Ant Design** (UI Components)
+- **Redux** (State Management)
+- **CSS Modules** (Styling)
+
+---
+
+## **📂 Project Structure**
